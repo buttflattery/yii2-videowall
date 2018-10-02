@@ -11,7 +11,7 @@ A Yii2 plugin based on [idows-videojs-videowall](https://github.com/buttflattery
 For details on the javascript plugin you can visit the link https://github.com/buttflattery/idows-videojs-videowall
 
 ### External Libraries Used ###
-
+* [Idows VideoJS-VideoWall](https://github.com/buttflattery/idows-videojs-videowall).
 * [VideoJs](http://videojs.com/) Library
 * [MustacheJS](https://github.com/janl/mustache.js/) for Templating
 * [jQuery v2.2.4](https://jquery.com/download/)
@@ -44,13 +44,13 @@ or add into the `composer.json` file under `require` section
             'videos' => [
                 [
                     "src" => "/PATH/TO/VIDEO.MP4",
-                    "mime" => 'video/mp4',
+                    "mime" => 'video/mime',
                     "poster" => "/PATH/TO/POSTER.JPG",
                     "title" => "Sweet Sexy Savage",
                 ], [
                     "src" => '/PATH/TO/VIDEO.MP4',
                     'poster' => '/PATH/TO/POSTER.JPG',
-                    'mime' => 'video/mp4',
+                    'mime' => 'video/mime',
                     'title' => 'Video 2',
                 ],
             ]
@@ -71,13 +71,13 @@ Thumbnail mode for compact display of the video files along with filter option u
             'videos' => [
                 [
                     "src" => "/PATH/TO/VIDEO.MP4",
-                    "mime" => 'video/mp4',
+                    "mime" => 'video/mime',
                     "poster" => "/PATH/TO/POSTER.JPG",
                     "title" => "Sweet Sexy Savage",
                 ], [
                     "src" => '/PATH/TO/VIDEO.MP4',
                     'poster' => '/PATH/TO/POSTER.JPG',
-                    'mime' => 'video/mp4',
+                    'mime' => 'video/mime',
                     'title' => 'Video 2',
                 ],
             ]
@@ -102,33 +102,33 @@ Bonus Feature for disaplying th playlists inside the video wall.
                     'videos' => [
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample1.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Circus Juggler Video',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample1.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Circus Juggler Video',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample2.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Deep Space Star Acts',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample3.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Dolby Digital Intro',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample4.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Toy Helicopter Demo',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                     ],
                 ],
@@ -138,36 +138,36 @@ Bonus Feature for disaplying th playlists inside the video wall.
                     'videos' => [
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample1.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Circus Juggler Video',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample1.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Circus Juggler Video',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ],
                         [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample1.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Circus Juggler Video',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ], [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample2.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Deep Space Star Acts',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ], [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample3.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Dolby Digital Intro',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ], [
                             'src' => '/PATH/TO/VIDEO.MP4',
-                            'poster' => '/video-uploads/posters/sample4.png',
-                            'mime' => 'video/mp4',
-                            'title' => 'Toy Helicopter Demo',
+                            'poster' => '/PATH/TO/POSTER.JPG',
+                            'mime' => 'video/mime',
+                            'title' => 'Video title',
                         ]],
                 ],
             ]
@@ -178,25 +178,25 @@ Bonus Feature for disaplying th playlists inside the video wall.
 
 - `videoTagOptions (array)`: Attributes for the the default video tag used by videoJs to initialize the player. You can pass the following options for the video tag.
 
-    - `class` : Html class for the the video tag
-    - `width` : Width for the video tag
-    - `height` : Height for the video tag
+    - `class` : Html class for the the video tag.
+    - `width` : Width for the video tag.
+    - `height` : Height for the video tag.
     - `setupOptions` : The setup options for the video tag used inside the `data-setup` attribute, below are few of the options commonly used by the videoJS player.
-        - `controls` : Default value `true`
-        - `autoplay` : Default value `true`
-        - `preload` : Default value `auto`
-    - `poster (path)` : Path for the default poster for the video tag, use path relative to the web directory
+        - `controls` : Default value `true`.
+        - `autoplay` : Default value `true`.
+        - `preload` : Default value `auto`.
+    - `poster (path)` : Path for the default poster for the video tag, use path relative to the web directory.
 - `wallType (string)` : 
     - `Videowall::TYPE_CAROUSEL` (carousel)
     - `Videowall::TYPE_THUMBNAIL` (thumbnail)
     - `Videowall::TYPE_PLAYLIST` (playlist)
 - `slideShowDelay (milliseconds)` : integer, default value 2000 ms.
-- `videoWallContainer (string)`: container class name for the video wall
-- `containerId (string)` : container id for the video wall slides.
-- `containerClass (string)` : container class name for the video wall  slides.
+- `videoWallContainer (string)`: container class name for the video wall, default class `video-wall-container`.
+- `containerId (string)` : container id for the video wall slides, default id prefix `video-wall-slides`.
+- `containerClass (string)` : container class name for the video wall  slides, default class `slides-container`.
 - `helpImproveVideoJs (boolean)` : `true` or `false` used by the videoJS player.
-- `thumbPageSize (int)` : page size for the thumbnails mode.
-- `playlistPageSize (int)` : page size for the playlist model.
+- `thumbPageSize (int)` : page size for the thumbnails mode, default value `15`.
+- `playlistPageSize (int)` : page size for the playlist model, default value `8`.
 - `loadBootstrapAssets (boolean)` : select if plugin should load the bootstrap assets or use the globally registered yii bootstrap assets, by default this option is `false` and Yii2 default assets bundle is used.
 - `bootstrapCssSource (url)` : url to the bootstrap css file for the plugin to load, this option is effective when you have `"loadBootstrapAssets"=>true`.
 - `bootstrapJsSource (url)` : url to the boootstrap js file for the plugin to load, this option is effective when you have `"loadBootstrapAssets"=>true`.
