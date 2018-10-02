@@ -1,6 +1,7 @@
 {
     "name": "buttflattery/yii2-videowall",
     "description": "A Yii2 plugin to display a video wall for videoJS player, and create different layouts for video wall like carousel, thumbnails and playlists.",
+    "license": "BSD",
     "type": "yii2-extension",
     "minimum-stability": "dev",
     "authors": [{
