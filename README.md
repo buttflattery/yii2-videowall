@@ -36,6 +36,7 @@ or add into the `composer.json` file under `require` section
 ### Usage 1 Carousel Mode ###
 ```php
 <?php
+        use buttflattery\videowall\Videowall;
         echo Videowall::widget([
             'videoTagOptions' => [
                 'height' => "500",
@@ -63,6 +64,7 @@ Thumbnail mode for compact display of the video files along with filter option u
 
 ```php
 <?php
+        use buttflattery\videowall\Videowall;
         echo Videowall::widget([
             'videoTagOptions' => [
                 'height' => "500",
@@ -89,6 +91,7 @@ Bonus Feature for disaplying th playlists inside the video wall.
 
 ```php 
 <?php
+        use buttflattery\videowall\Videowall;
         echo Videowall::widget([
             'wallType' => Videowall::TYPE_PLAYLIST,
             'videoTagOptions' => [
