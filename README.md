@@ -24,13 +24,13 @@ For details on the javascript plugin you can visit the link https://github.com/b
 use composer to install the extension 
 
 ```
-php composer.phar require  buttflattery\yii2-videowall "@dev" 
+php composer.phar require  buttflattery/yii2-videowall "@dev" 
 ```
 
 or add into the `composer.json` file under `require` section
 
 ```composer
-"buttflattery/yii2-formwizard":"@dev"
+"buttflattery/yii2-videowall":"@dev"
 ```
 
 ### Usage 1 Carousel Mode ###
