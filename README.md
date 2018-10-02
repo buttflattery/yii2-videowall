@@ -218,5 +218,5 @@ Bonus Feature for disaplying th playlists inside the video wall.
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* buttflattery@hotmail.com
+* omeraslam@idowstech.com
