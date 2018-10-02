@@ -125,15 +125,16 @@ class Videowall extends \yii\base\Widget {
     public $containerId = 'video-wall-slides';
     // slides container class
     public $containerClass = "slides-container";
+    
     public $helpImproveVideoJS = false;
     public $thumbPageSize = 15;
     public $playlistPageSize = 8;
-//    public $loadSelectAssets = true;
+    //loadbootstrap assets from the plugin
     public $loadBootstrapAssets = false;
     public $bootstrapCssSource = '';
     public $bootstrapJsSource = '';
-//    public $select2CssSource = '//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css';
-//    public $select2JsSource = '//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js';
+    
+    //default options for the kartik-v/select2 plugin
     public $select2Defaults = [
         'allowClear' => true,
         // "closeOnSelect"=> false,
@@ -241,12 +242,7 @@ CSS;
             'playlistPageSize' => $this->playlistPageSize,
             'videos' => $this->videos,
             'playlists' => $this->playlists,
-//            'loadSelectAssets' => $this->loadSelectAssets,
             'loadBootstrapAssets' => $this->loadBootstrapAssets,
-//            'bootstrapCssSource' => $this->bootstrapCssSource,
-//            'bootstrapJsSource' => $this->bootstrapJsSource,
-//            'select2CssSource' => $this->select2CssSource,
-//            'select2JsSource' => $this->select2JsSource,
             'openOnStart' => $this->openOnStart,
             'callback' => new JsExpression($this->callback),
             'select2Defaults' => $this->select2Defaults
