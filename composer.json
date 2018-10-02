@@ -1,0 +1,19 @@
+{
+    "name" : "buttflattery/yii2-videowall",
+    "type" : "yii2-extension",
+    "minimum-stability" : "dev",
+    "authors" : [{
+            "name" : "Muhammad Omer Aslam",
+            "email" : "buttflattery@gmail.com"
+        }],
+    "require" : {
+        "php" : ">=5.4.0",
+        "yiisoft/yii2" : ">=2.0.15.1",
+        "kartik-v/yii2-widget-select2" : "@dev"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "buttflattery\\videowall\\" : "/src"
+        }
+    }
+}
