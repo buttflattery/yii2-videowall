@@ -37,6 +37,10 @@ or add into the `composer.json` file under `require` section
 ```composer
 "buttflattery/yii2-videowall":"@dev"
 ```
+### Demos ###
+- [Carousel Mode](http://yii2plugins.idowstech.com/videowall/carousel).
+- [Thumbnail Mode](http://yii2plugins.idowstech.com/videowall/thumbnail).
+- [Playlist Mode](http://yii2plugins.idowstech.com/videowall/thumbnail).
 
 ### Available Options ###
 
