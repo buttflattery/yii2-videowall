@@ -20,9 +20,9 @@ For details on the javascript plugin you can visit the link https://github.com/b
 * [Bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/)
 
 ### DEMOS ###
-[Carousel](http://yii2plugins.idowstech.com/videowall/carousel)
-[Thumbnail](http://yii2plugins.idowstech.com/videowall/thumbnail)
-[Playlist](http://yii2plugins.idowstech.com/videowall/playlist)
+- [Carousel](http://yii2plugins.idowstech.com/videowall/carousel)
+- [Thumbnail](http://yii2plugins.idowstech.com/videowall/thumbnail)
+- [Playlist](http://yii2plugins.idowstech.com/videowall/playlist)
 
 ### How do I get set up? ###
 
