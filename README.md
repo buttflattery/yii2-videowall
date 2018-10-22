@@ -9,6 +9,7 @@ A Yii2 plugin based on [idows-videojs-videowall](https://github.com/buttflattery
 * Playlist
 
 ![delete-single-files](https://yii2plugins.idowstech.com/theme/assets/img/video-wall.jpg)
+
 For details on the javascript plugin you can visit the link https://github.com/buttflattery/idows-videojs-videowall
 
 ### External Libraries Used ###
